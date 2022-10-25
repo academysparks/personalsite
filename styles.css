@@ -1,0 +1,77 @@
+
+/*foundation*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+code {
+  background: #eee;
+  padding: 2px 5px;
+  font-size: 90%;
+  border: 1px solid #ccc;
+  margin: 0 2px;
+}
+
+.container {
+  background: white;
+  border: 10px solid #3C415C;
+  margin: 30px auto;
+  padding: 5%;
+  width: 75%;
+}
+
+
+a {
+  color: #301B3F;
+}
+a:visited {
+  color: #301B3F;
+}
+a:hover {
+  color: #c33;
+}
+/*foundation end*/
+
+/*index*/
+.workTable table {
+  border: 2px solid grey;
+}
+
+/*contact-info*/
+.contactBox {
+  background: white;
+  border: 2px dotted #7A86B6;
+  margin: 100px auto;
+  padding: 2%;
+  height: 350px;
+  width: 60%;
+}
+
+.nameform {
+  width: 37.2%;
+}
+
+.emailform {
+  width: 37.2%;
+}
+
+.contactform {
+  height: 200px;
+  width: 75%;
+}
+/*contact-info end*/
+
+/* 2 pictures in a row login page*/
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+/* end */
+
+.loginlink {
+  color: black;
+}
+/*end login page*/
